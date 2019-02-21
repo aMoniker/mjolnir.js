@@ -26,7 +26,7 @@ export const RECOGNIZERS = Hammer ? [
   [Hammer.Rotate, {enable: false}],
   [Hammer.Pinch, {enable: false}],
   [Hammer.Swipe, {enable: false}],
-  [Hammer.Pan, {threshold: 0, enable: false}],
+  [Hammer.Pan, {threshold: 10, enable: false}],
   [Hammer.Press, {enable: false}],
   [Hammer.Tap, {event: 'doubletap', taps: 2, enable: false}],
   // TODO - rename to 'tap' and 'singletap' in the next major release
